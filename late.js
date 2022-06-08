@@ -8,6 +8,6 @@ function running_late(date) {
     }
 }
 // new Date() returns the current date and time
-console.log(running_late(new Date())); 
+console.log(running_late(new Date("December 17, 1995 23:24:00"))); 
 
 exports.running_late = running_late;
