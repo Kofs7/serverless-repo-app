@@ -1,6 +1,6 @@
 // code your `hello` function here!
-const hello = function () {
-    console.log("Hello World");
+function hello() {
+    console.log("Hello World")
 }
-hello();
+hello()
 exports.hello = hello;
